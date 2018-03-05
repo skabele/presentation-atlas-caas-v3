@@ -1,4 +1,4 @@
-# atlas-caas-v3 & caas-spinner-ts
+# atlas-caas-v3 caas-spinner-ts
 
 How to implement CaaS during coffee break
 
@@ -6,20 +6,17 @@ How to implement CaaS during coffee break
 
 # FooBar project
 
-1. Why `atlas-caas-v3` + `caas-spinner-ts`
-2. Main interface `caas-service.ts`
-3. Present just spinned FooBar CaaS:
-    1. infrastrucrure
-    2. main features
-    3. helpers
-    4. comment on extensibility
+1. `index.ts` & infrastrucrure
+2. `caas-service.ts` & main features
+3. helpers
+4. maintenance & extensibility
     
 ---
 
 # atlas-caas-v3
 
-1. Real implementations: Nacex & GLS
+1. Caas: Nacex, GLS, BPost, BPost Parcel
 2. Usage with Typescript or JS
-3. (optional) effect of GLS migration to `atlas-caas-v3`
+3. GLS migration to `atlas-caas-v3`
 4. State of package and future versions
     
