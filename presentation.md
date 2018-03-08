@@ -54,6 +54,8 @@ ARTICULATE & SPEAK SLOWLY
     * ready to use
     * we are happy to support anybody who would like to try it (in TS or in JS)
 4. Future thoughts:
+    * option for of spinner to generate `flexy` integration tests
+      (or generate both and just delet unused ones...)
     * maybe extract bare service infrastructure (and use in `atlas-caas-v3`)
     * maybe split to bare caas "host" + caas helpers
 
