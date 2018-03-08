@@ -12,7 +12,7 @@ ARTICULATE & SPEAK SLOWLY
     4. keep ourselves motivated
 3. show `atlas-caas-v3/src/caas-service.ts`
 
-## Spinned FooBar project
+## FooBar project
 
 1. show new `foobar` project created using `caas-spinner-ts`
     * thank for spinner idea
@@ -34,29 +34,28 @@ ARTICULATE & SPEAK SLOWLY
     * `labels.removeDefaultsFromXamlTemplate`
 5. **extensibility / maintainability**    
     * possibility to fix / enhance manifesting
+    * update NewRelic
     * add security enhancements like like [helmet](https://www.npmjs.com/package/helmet) 
     * add new common endpoint
     * add profile validation
     * ... of course, there is maintenance cost
 
-## Real implementations
+## atlas-caas-v3
 
-1. present Nacex
-2. mention GLS
-
-## Other & closing
-
-1. TS and JS
+1. Caas: Nacex, GLS, BPost, BPost Parcel
+2. TS and JS
     * atlas-caas-v3 is usable in both TS and JS. Type annotations can be helpfull even in JS
     * caas-spinner-ts spins TS project, but you can grab JS skeleton in `./js/` after compilation
     * comment how we use TS (prefer interfaces over classes)
-2. **OPTIONAL** show GLS migration to atlas-caas-v3 (size of code, dependencies)
-3. **OPTIONAL** Demo usefulness of types in IDE   
-    * show editing code in TS with type safety
-    * show type hints in JS
-4. Maintaining atlas-caas-v3:
+    * demo usefulness of types in IDE
+3. **OPTIONAL** show GLS migration to atlas-caas-v3 (size of code, dependencies)
+3. Maintaining atlas-caas-v3:
     * semver, README, CHANGELOG    
     * ready to use
     * we are happy to support anybody who would like to try it (in TS or in JS)
-5. Request for feedback
+4. Future thoughts:
+    * maybe extract bare service infrastructure (and use in `atlas-caas-v3`)
+    * maybe split to bare caas "host" + caas helpers
+
+Request for feedback!
 
