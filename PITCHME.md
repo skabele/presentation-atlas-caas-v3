@@ -25,19 +25,17 @@ How to implement CaaS during coffee break
 
 ```
 $ cloc src
-      38 text files.
-Language                     files          blank        comment           code
--------------------------------------------------------------------------------
-TypeScript                      37            345            381           2432
+Language          files   blank comment   code
+----------------------------------------------
+TypeScript           37     345     381   2432
 
 ```
 
 ```
 $ cloc src
-        21 text files.
-  Language                     files          blank        comment           code
-  -------------------------------------------------------------------------------
-  TypeScript                      21            187              8           1471
+  Language        files   blank comment   code
+  --------------------------------------------
+  TypeScript         21     187       8   1471
 ```
 
 
